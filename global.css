@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  background: white;
+  color: black;
+}
+
+main {
+  width: 76%;
+  margin: 0 auto;
+  padding: 2.5rem 0 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.header-left p {
+  display: none;
+}
+
+.controls {
+  min-width: 430px;
+  text-align: right;
+}
+
+.controls label {
+  display: grid;
+  grid-template-columns: auto 320px;
+  column-gap: 0.6rem;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+#time-slider {
+  width: 320px;
+}
+
+time {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+em {
+  display: none;
+}
